@@ -183,3 +183,6 @@ do
     fi
 
 done
+
+echo "source=~/.config/hypr/themes/cyber/theme.conf" >> ~/.config/hypr/hyprland.conf
+
