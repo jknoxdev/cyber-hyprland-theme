@@ -152,8 +152,8 @@ echo "----- ----- installing from AURs ----- -----"
 for aur in "${aurs[@]}"
 do
     echo "----- ----- ----- installing $aur ----- ----- -----"
-    echo "--- : pacman -S $aur"
-    pacman -S $aur
+    echo "--- : yay -S $aur"
+    yay -S $aur
 done
 
 echo "----- ----- installing from sources ----- -----"
